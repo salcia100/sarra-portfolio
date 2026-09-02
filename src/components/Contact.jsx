@@ -16,7 +16,7 @@ export default function Contact() {
 
           <div className="flex flex-col gap-3 ">
             
-              <a href="/cv/CV_Sarra_Had_EN(1).pdf"
+              <a href="/cv/CV_Sarra_Had_EN.pdf"
               download
               className="inline-flex items-center gap-2 rounded-full border border-[#d99a5b]/40 px-6 py-3 font-mono text-xs tracking-[0.2em] text-[#e8e2d8] transition-colors hover:border-[#d99a5b] hover:text-[#d99a5b]"
             >
@@ -24,7 +24,7 @@ export default function Contact() {
               <span aria-hidden="true">↓</span>
             </a>
             
-              <a href="/cv/CV_Sarra_Had_FR(1).pdf"
+              <a href="/cv/CV_Sarra_Had_FR.pdf"
               download
               className="inline-flex items-center gap-2 rounded-full border border-[#d99a5b]/40 px-6 py-3 font-mono text-xs tracking-[0.2em] text-[#e8e2d8] transition-colors hover:border-[#d99a5b] hover:text-[#d99a5b]"
             >
