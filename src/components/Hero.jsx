@@ -99,7 +99,7 @@ export default function Hero() {
 
               {/* Portrait */}
               <img
-                src="/images/hero-character5.png"
+                src="/images/hero-character6.png"
                 alt="Portrait of Sarra Haddad"
                 className="
                   portrait-fade
