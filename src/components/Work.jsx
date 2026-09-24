@@ -3,7 +3,8 @@ import Marquee from './Marquee';
 const projects = [
   {
     num: "01",
-    name: "3LM Solutions",
+    product: "Student Learning Platform",
+    company: "3LM Solutions",
     role: "Full-Stack Developer Intern",
     date: "07/2026 — PRESENT",
     desc: "Building the student learning platform for an online HR training product: course navigation, module progression, quizzes and certificate eligibility.",
@@ -12,7 +13,8 @@ const projects = [
   },
   {
     num: "02",
-    name: "Incentive Solutions",
+    product: "Multi-Vendor E-Commerce App",
+    company: "Incentive Solutions",
     role: "Full-Stack Developer Intern — Final Year Project",
     date: "02/2025 — 06/2025",
     desc: "Built a multi-vendor e-commerce app covering browsing, purchasing, selling and personalised customer requests, plus REST APIs and an admin dashboard for users, products, orders and analytics. Two-person team on Git and Bitbucket.",
@@ -21,7 +23,8 @@ const projects = [
   },
   {
     num: "03",
-    name: "Elyos Digital",
+    product: "Gym Management System",
+    company: "Elyos Digital",
     role: "Web Developer Intern",
     date: "08/2024 — 09/2024",
     desc: "Developed a web-based gym management system with full CRUD over core application data, working across Laravel's MVC architecture, routing, controllers and database layer.",
@@ -29,8 +32,9 @@ const projects = [
   },
   {
     num: "04",
-    name: "Online Recruitment Platform",
-    role: "Academic Project",
+    product: "Online Recruitment Platform",
+    company: "Academic Project",
+    role: "Full-Stack Developer",
     date: "05/2024",
     desc: "A recruitment web application with user authentication and job listing management, built from scratch on a JavaScript and MongoDB stack.",
     tags: ["Node.js", "JavaScript", "HTML/CSS", "MongoDB"],
@@ -52,11 +56,19 @@ export default function Work() {
                 <span className="font-serif text-2xl italic text-[#d99a5b]">{p.num}</span>
 
                 <div>
-                  <h3 className="font-serif text-3xl text-[#e8e2d8]">{p.name}</h3>
-                  <p className="mt-2 font-mono text-sm text-[#a89d8e]">{p.role}</p>
-                  <p className="mt-1 font-mono text-xs tracking-[0.15em] text-[#6b6156]">{p.date}</p>
-                </div>
+                  <h3 className="font-serif text-3xl text-[#e8e2d8] md:text-4xl">
+                    {p.product}
+                  </h3>
 
+                  <p className="mt-3 font-mono text-sm text-[#a89d8e]">
+                    {p.company} <span className="text-[#6b6156]">·</span> {p.role}
+                  </p>
+
+                  <p className="mt-2 font-mono text-xs tracking-[0.15em] text-[#6b6156]">
+                    {p.date}
+                  </p>
+                </div>
+                
                 <div>
                   <p className="font-mono text-sm leading-relaxed text-[#a89d8e]">{p.desc}</p>
                   <div className="mt-5 flex flex-wrap gap-2">
